@@ -1,20 +1,22 @@
 <div class="header">
-    <h1>{{ site.name }}</h1>
-    <ul>
-        {% for item in site.data.navigation %}
+    <h1><%= config.title  %></h1>
+    <h2><%= config.subtitle  %></h2>
+     <ul>
+      <% site.pages.each(function(page){ %>
         <li>
-            <a href="{{ item.url }}">{{ item.title }}</a>
+            <a href="<%= url_for(page.path) %>"><%= page.title %></a>
         </li>
-        {% endfor %}
+      <% }); %>     
     </ul>
 </div>
 <div class="blog">
     <h1>Blog Posts:</h1>
     <ul>
-        {% for post in site.posts %}
+     <% site.posts.each(function(post){ %>  
+
         <li>
-            <span class="date">{{ post.date }}</span> - <a href="{{ post.url }}">{{ post.title }}</a>
+            <span class="date"><%= date(post.date) %></span> - <a href="<%= url_for(post.path) %>"><%= post.title %></a>
         </li>
-        {% endfor %}
+     <% }); %>  
     </ul>
 </div>

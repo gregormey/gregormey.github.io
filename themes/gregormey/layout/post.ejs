@@ -3,15 +3,17 @@
     	<a href="/">&lt;-- home</a>
     </div>
     <div class="post__title">
-    	<h1>{{ page.title }}</h1>
+    	<h1><%= page.title %></h1>
     </div>
     <div class="post__date">
-    	<p>{{ page.date }}</p>
+    	<p><%= date(page.date) %></p>
     </div>
     <div class="post__meta">
-    	<p>{{ tags_content }}</p>
+    	<% page.tags.each(function(tag){ %>
+          <p><%= tag %></p>
+        <% }); %>
     </div>
-    <div class="post__content"?>
-        {{ content }}
+    <div class="post__content">
+        <%- page.content %>
     </div>
 </div>
