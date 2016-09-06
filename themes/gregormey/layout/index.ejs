@@ -1,7 +1,9 @@
 <div class="header">
-    <h1><%= config.title  %></h1>
-    <h2><%= config.subtitle  %></h2>
-     <ul>
+   <div class="title">	
+      <h1><%= config.title  %> </h1>
+      <h2><%= config.subtitle  %></h2>
+    </div> 
+    <ul>
       <% site.pages.each(function(page){ %>
         <li>
             <a href="<%= url_for(page.path) %>"><%= page.title %></a>

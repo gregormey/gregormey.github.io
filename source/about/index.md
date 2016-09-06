@@ -9,7 +9,5 @@ My name is Gregor Meyenberg. I am married, i have a little daughther and i live 
 
 If you like to get in contact with me just leave a comment here or just write a [mail](mailto:gregor@meyenberg.de "gregor@meyenberg.de"). 
 
-You can also find me here:
-* [GitHub](https://github.com/gregormey/)
-* [Twitter](https://twitter.com/gregormey)
-* [Xing](https://www.xing.com/profile/Gregor_Meyenberg)
+You can also find me here: [GitHub](https://github.com/gregormey/), [Twitter](https://twitter.com/gregormey), [Xing](https://www.xing.com/profile/Gregor_Meyenberg) 
+
