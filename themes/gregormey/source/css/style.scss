@@ -79,6 +79,9 @@ ul {
 
 .blog {
 	padding-bottom: 30px;
+   	&__post_title{ 
+		text-decoration: underline; 	
+	}
 	h1 {
 		font-size: 1.4em;
 		margin-bottom: 5px;

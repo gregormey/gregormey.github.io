@@ -17,8 +17,10 @@
      <% site.posts.each(function(post){ %>  
 
         <li>
-            <span class="date"><%= date(post.date) %></span> - <a href="<%= url_for(post.path) %>"><%= post.title %></a>
-        </li>
+		<div class='blog__post_title'><a href="<%= url_for(post.path) %>"><span class="date"><%= date(post.date) %></span> - <%= post.title %></a></div>
+	    <%- post.excerpt %>
+	    <a href="<%= url_for(post.path) %>">read more</a> 
+	</li>
      <% }); %>  
     </ul>
 </div>
