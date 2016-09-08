@@ -11,3 +11,4 @@ If you like to get in contact with me just leave a comment here or just write a 
 
 You can also find me here: [GitHub](https://github.com/gregormey/), [Twitter](https://twitter.com/gregormey), [Xing](https://www.xing.com/profile/Gregor_Meyenberg) 
 
+This blog is made with [hexo.io](http://hexo.io) and the theme is copied from [getmicah.github.io](https://github.com/getmicah/getmicah.github.io) 
