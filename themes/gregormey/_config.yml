@@ -1,3 +1,8 @@
+#commenting
+disqus: true
+disqus_page: blog-gregormeyenberg-de.disqus.com
+disqus_dev_mode: true #set to false or remove for production
+
 #tracking
 google_analytics: UA-83804940-1
         
