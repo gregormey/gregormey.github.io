@@ -5,25 +5,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <title>About | gregormeyenberg.de</title>   
-    <meta name="description" content="I write about my experiences as a Product Owner">
+    <title><% if (page.title){ %><%= page.title %> | <% } %><%= config.title %></title>   
+    <meta name="description" content="<%= config.description %>">
 
     <link rel="icon" href="/assets/img/favicon.png">
     <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/css/style.css">
-    
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-83804940-1', 'auto');
-    ga('send', 'pageview');
-
-</script>
-
-
+    <%- css('css/style') %>
+    <%- partial('_partial/google-analytics') %>
    
    
 </head>
@@ -31,43 +19,7 @@
 <body>
 
     <div class="wrapper">
-        <div class="about">
-    <a class="about__back" href="/">&lt;-- back</a>
-    <h1 class="about__title">About Me:</h1>
-    <div class="about__content">
-        <p><img src="./index/me.jpg" alt="" title="Me"></p>
-<p>My name is Gregor Meyenberg. I am married, i have a little daughther and i live in Hamburg in Germany. Beside that i work as a Product Owner for <a href="https://www.goodgamestudios.com" target="_blank" rel="external">Goodgame Studios</a>.</p>
-<p>If you like to get in contact with me just leave a comment here or just write a <a href="mailto:gregor@meyenberg.de" title="gregor@meyenberg.de" target="_blank" rel="external">mail</a>. </p>
-<p>You can also find me here: <a href="https://github.com/gregormey/" target="_blank" rel="external">GitHub</a>, <a href="https://twitter.com/gregormey" target="_blank" rel="external">Twitter</a>, <a href="https://www.xing.com/profile/Gregor_Meyenberg" target="_blank" rel="external">Xing</a> </p>
-<p>This blog is made with <a href="http://hexo.io" target="_blank" rel="external">hexo.io</a> and the theme is copied from <a href="https://github.com/getmicah/getmicah.github.io" target="_blank" rel="external">getmicah.github.io</a> </p>
-
-    </div>
-</div>
-
-<div id="disqus_thread"></div>
-<script>
-
-
-
-/**
- *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
-   var disqus_config = function () {
-	   this.page.url = "http://blog.gregormeyenberg.de/about/index.html";  // Replace PAGE_URL with your page's canonical URL variable
-	   this.page.identifier = "about/index.html"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-	   };
-
-(function() { // DON'T EDIT BELOW THIS LINE
-	    var d = document, s = d.createElement('script');
-	    s.src = '//blog-gregormeyenberg-de.disqus.com/embed.js';
-		    s.setAttribute('data-timestamp', +new Date());
-		        (d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-
-
+        <%- body %>
     </div>
 </body>
 
