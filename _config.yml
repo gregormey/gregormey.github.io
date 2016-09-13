@@ -72,6 +72,4 @@ deploy:
   repo: https://github.com/gregormey/gregormey.github.io
   branch: master
 
- # Plugins
-plugins:
-- hexo-generator-cname          
+     
