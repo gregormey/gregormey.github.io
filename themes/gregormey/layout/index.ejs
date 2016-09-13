@@ -14,7 +14,7 @@
 <div class="blog">
     <h1>Blog Posts:</h1>
     <ul>
-     <% site.posts.each(function(post){ %>  
+     <% site.posts.sort('date',-1).each(function(post){ %>  
 
         <li>
 		<div class='blog__post_title'><a href="<%= url_for(post.path) %>"><span class="date"><%= date(post.date) %></span> - <%= post.title %></a></div>

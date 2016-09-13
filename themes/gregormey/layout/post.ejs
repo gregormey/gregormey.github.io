@@ -8,11 +8,6 @@
     <div class="post__date">
     	<p><%= date(page.date) %></p>
     </div>
-    <div class="post__meta">
-    	 <% page.tags.each(function(tag){ %>
-	 <p><%- tag.name %></p>
-        <% }); %>
-   </div>
     <div class="post__content">
         <%- page.content %>
     </div>
