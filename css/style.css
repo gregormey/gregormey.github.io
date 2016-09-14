@@ -185,6 +185,10 @@ ul {
       font-size: 0.9em;
       border-radius: 3px;
       background: #EEEEEE; }
+    .post__content blockquote {
+      padding: 0 1em;
+      color: #777;
+      border-left: 0.25em solid #ddd; }
     .post__content .highlight {
       margin: 10px;
       margin-bottom: 15px;
