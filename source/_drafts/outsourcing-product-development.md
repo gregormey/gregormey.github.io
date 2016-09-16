@@ -40,10 +40,21 @@ Wie schon geschrieben entsteht das Risiko beim Outsourcing vorallem durch den Ve
   
 Boris Gloger beschreit in seinem Buch [Der agile Festpreis](https://www.amazon.de/agile-Festpreis-Leitfaden-erfolgreiche-Projekt-Verträge/dp/3446432264) eine Mehode, wie man einen agilen Vertrag mit einem Zulieferer auch rechtlich bindend abschließen kann. Ob man sich nun für diese Methode entschiedet, oder einen weniger offiziellen Rahmen vereinbart. Die wesentlichen Punkte sind folgende:
 
-  
+- Iteratives arbeiten mit regelmäßigen Reviews (z.B. Scrum)
+- Nach jeder iteration hat der Kunde die Möglichkeit das Projekt abzubrechen, oder die nächste Iteration zu beauftragen vs. Time and Material
+- Es sollte daruf hingearbeitet werden, das nach jeder Iteration wert geliefert wird (funktionierende Software)
+- Mit Jeder Iteration hat man die Möglichkeiten auf basis des gelernten die Anforderungen an das Projekt anzupassen   
+- Der Zuliefer commitet sich auf das erreichen eines Zieles und nicht auf das Umsetzen von Anforderungen
+- Eine Direkte Kommunikation mit den Entwicklern ist jeder Zeit möglich und gewünscht
+- Die Sprint länge ist verhandelbar. Schnelleres Feedback vs. die Möglichkeit funktionsfähige Software zu bauen
 
 
 ## How to choose a external partner
+Es ist im prinzip Unmöglich einen Partner nach dem besten Preis auszuwählen. Preis ist ein Faktor in dem Entscheidungsprozess, aber eher der letzte Punkt den man sich ansieht. Man benötigt also eine möglichkeit einen Partner nach anderen kriterien objektiv zu bewerten. In einem meiner letzten Projekte haben wir es anhand einer Nutzwertanalyse getan.
+
+Mögliche Partner haben uns aufgrund einer ersten Anfrage ein Angebot gemacht. Diese waren aber wenig aussagekräftig, da sie presilich alle sehr nah beieinander lagen und wir uns nicht vorstellen konnten, dass die Partner aufgrund einer Knappen beschreibung unseres Vorhabend wirklich in der Lage sind den Aufwand für eine nötige Lösung verhersagen zu können.
+
+
 
 ### Value analisis
 
