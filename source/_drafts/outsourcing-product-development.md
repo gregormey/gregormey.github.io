@@ -50,18 +50,47 @@ Boris Gloger beschreit in seinem Buch [Der agile Festpreis](https://www.amazon.d
 
 
 ## How to choose a external partner
-Es ist im prinzip Unmöglich einen Partner nach dem besten Preis auszuwählen. Preis ist ein Faktor in dem Entscheidungsprozess, aber eher der letzte Punkt den man sich ansieht. Man benötigt also eine möglichkeit einen Partner nach anderen kriterien objektiv zu bewerten. In einem meiner letzten Projekte haben wir es anhand einer Nutzwertanalyse getan.
+Es ist im prinzip Unmöglich einen Partner nach dem besten Preis auszuwählen. Preis ist ein Faktor in dem Entscheidungsprozess, aber eher der letzte Punkt den man sich ansieht. Man benötigt also eine Möglichkeit einen Partner nach anderen kriterien objektiv zu bewerten. In einem meiner letzten Projekte haben wir es anhand einer Nutzwertanalyse getan.
 
 Mögliche Partner haben uns aufgrund einer ersten Anfrage ein Angebot gemacht. Diese waren aber wenig aussagekräftig, da sie presilich alle sehr nah beieinander lagen und wir uns nicht vorstellen konnten, dass die Partner aufgrund einer knappen Beschreibung unseres Vorhabend wirklich in der Lage sind den Aufwand für eine nötige Lösung verhersagen zu können.
 
 
 
 ### Value analisis
-Im ersten Schritt muss man sich Überlegen, welche Kriterien außer dem Preis für eine lohnenswerte Risikominimierung enstscheidend sind. In unserem Fall waren das folgende Punkte:
+Im ersten Schritt muss man sich Überlegen, welche Kriterien außer dem Preis das Risiko minimieren können. In unserem Fall waren das folgende Punkte:
   
+- Verfügbarkeit
+- Kompetenz
+- Prozess Kontrolle 
+- Risk Share
+- Qualität
+
+Wir haben dann einen Fragebogen zusammengestellt, der unterschiedliche Fragen zu jeder Kategorie enthielt. 
+
+Hier ein paar Beispiele (Kompletter Fragenkatalog zum download hier):
+
+*Verfügbarkeit*
+- Unter welchen Bedingungen sind persönliche Treffen möglich ?
+
+*Kompetenz*
+- Könnt ihr uns Referenzen für ähnliche projekte nennen?
+
+*Prozess Kontrolle*
+- Was ist, wenn wir im Verlauf der Entwicklung feststellen, dass wir von dem ursprünglichen Auftrag komplett abweichen müssen ?
+
+*Risk Share*
+- Besteht die Bereitschaft, Risiken im Falle von Verzögerungen, Bugs nach Fertigstellung, Ausfällen etc. gemeinsam zu tragen ?
+
+*Qualität*
+- Ist es möglich, dass wir konkrete Abnahme-Tests definieren ?
+
+Zu jeder Frage haben wir uns eine optimale Antwort überlegt. Und dann diese  auf einer Skala von 1(unwichtig) - 10 (sehr wichtig) für uns gewichtet.
+
+Beispiele:
 
 
-## Conclusion
+ 
+
 
 
 
