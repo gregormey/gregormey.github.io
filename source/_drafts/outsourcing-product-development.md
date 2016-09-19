@@ -52,14 +52,14 @@ Boris Gloger beschreit in seinem Buch [Der agile Festpreis](https://www.amazon.d
 ## How to choose a external partner
 Es ist im prinzip Unmöglich einen Partner nach dem besten Preis auszuwählen. Preis ist ein Faktor in dem Entscheidungsprozess, aber eher der letzte Punkt den man sich ansieht. Man benötigt also eine möglichkeit einen Partner nach anderen kriterien objektiv zu bewerten. In einem meiner letzten Projekte haben wir es anhand einer Nutzwertanalyse getan.
 
-Mögliche Partner haben uns aufgrund einer ersten Anfrage ein Angebot gemacht. Diese waren aber wenig aussagekräftig, da sie presilich alle sehr nah beieinander lagen und wir uns nicht vorstellen konnten, dass die Partner aufgrund einer Knappen beschreibung unseres Vorhabend wirklich in der Lage sind den Aufwand für eine nötige Lösung verhersagen zu können.
+Mögliche Partner haben uns aufgrund einer ersten Anfrage ein Angebot gemacht. Diese waren aber wenig aussagekräftig, da sie presilich alle sehr nah beieinander lagen und wir uns nicht vorstellen konnten, dass die Partner aufgrund einer knappen Beschreibung unseres Vorhabend wirklich in der Lage sind den Aufwand für eine nötige Lösung verhersagen zu können.
 
 
 
 ### Value analisis
+Im ersten Schritt muss man sich Überlegen, welche Kriterien außer dem Preis für eine lohnenswerte Risikominimierung enstscheidend sind. In unserem Fall waren das folgende Punkte:
+  
 
-
- 
 
 ## Conclusion
 

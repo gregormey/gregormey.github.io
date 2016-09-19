@@ -144,6 +144,15 @@ ul {
       font-weight: 700;
       margin-top: 25px;
       margin-bottom: 5px; }
+    .post__content h3 {
+      font-size: 1.1em;
+      margin-top: 25px;
+      margin-bottom: 5px; }
+    .post__content h4 {
+      font-size: 1em;
+      margin-top: 25px;
+      margin-bottom: 5px;
+      text-decoration: underline; }
     .post__content p {
       font-size: 1em;
       line-height: 150%;
