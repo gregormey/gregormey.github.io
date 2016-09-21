@@ -5,25 +5,34 @@ tags:
 - product management
 - aglie
 ---
+I think outsourcing is a valid option to compensate missing inhouse skills or resources, but the desicion for outsourcing always accompanies a certain risk. In my career i have seen companies that deal with outsourcing quite different. 
+<!-- more -->
 
-Ich habe in meiner Karierre bisher einige Unternehmen gesehen, die sehr unterschiedlich mit dem Outsourcen von Produkt entwicklungs Projekten umgegangen sind. Eine gewisse Zeit habe ich soger für ein Unternhemen gearbeitet, dessen Kernsgeschäft darin bestand Producktentwicklung als Drittanbieter für andere Unternehmen durchzuführen.
-
-Eingie Unternehmen haben versucht möglichst viele Projekte von extern machen zu lassen i.d.r. aus vermeidlichen Kostengründen. Andere leiden an dem [not invented here syndrom](https://en.wikipedia.org/wiki/Not_invented_here) und versuchen alles Inhouse zu lösen. Prinziell macht Outsourcing unter gewissen Umständen Sinn. Aber egal ob man sich für oder gegen Outsourcing entscheiden, gehen mit der Entscheidung immer gewisse Risiken einher. Meine Erfahrungen damit möchte ich hier geren teilen.
+Sometimes companies try to outsource as much product development as possible for cost reasons. Others suffered from the [not invented here syndrom](https://en.wikipedia.org/wiki/Not_invented_here). Some time i even worked for a company whose core business was to do development as a service for other companies. I like to share my experiences with that here in detail.    
 
 ## Know your core domain
-Ein Projekt outsourcen bedeutet immer Kontrolle abzugeben. Man muss sich also bei der Frage nach Outsourcing die Frage stellen über welchen Bereich in meinem Unternehmen kann ich es mir leisten kontorlle abzugeben. I.d.r will man die kontrolle über den Treiber [drivers of the business model](http://www.startuplessonslearned.com/2008/09/three-drivers-of-growth-for-your.html) des Geschäftmodelles behalten, da hier das Risiko am größten ist und es am notwendigsten ist schnell und flexibel Anpasssungen machen zu können. In einem Unternehmen hat man heutzutage i.d.r eine vielzahl von unterschiedlichen Domänen. In einer größeren Entwicklunsfirma könnten das z.B. neben der Produktentwicklung noch folgende Bereiche sein.
+The most important leasson i have learned so far is that outsourceing always means to give up control. So i think the question companies should be able to answer, when they consider to outsource product development is, for which area of their business they can affort to give up control.
+ 
+I think companies should always keep control of their [drivers of the business model](http://www.startuplessonslearned.com/2008/09/three-drivers-of-growth-for-your.html), because here it is crutial to be stay flexible and to align as fast as possible when it is needed. In that area the entrepreneurial risk is always very high. 
+
+But today companies need to deal with lots of different domains beside their core business. In a product development company that could be also:
 
 - Marketing
 - HR
 - Public Relations
 - Community Management
-etc.
- 
-Im Domain Driven Design unterscheidet man zwischen folgenen unterschiedlichen Domain Typen:
-- Generic Domain, A generic domain is one that is universally well-known, without any need for specialization in the core domain.
-- Supporting Doamin, A support domain is a part of the domain that indirectly supports the core domain without actually belonging to it.
-- Core Domain, The core domain is the part of the domain most closely associated with the strategy of the company.
-[Core Domain](http://blog.zenmodeler.com/enterprise-design/2012/05/29/domain-driven-design-distillation-support-generic-and-core-domain.html) 
+a.s.o.
+
+Domain Driven Design differs here between three different types of [domains](http://blog.zenmodeler.com/enterprise-design/2012/05/29/domain-driven-design-distillation-support-generic-and-core-domain.html)  
+
+*Generic Domain*
+ A generic domain is one that is universally well-known, without any need for specialization in the core domain.
+
+*Supporting Doamin* 
+A support domain is a part of the domain that indirectly supports the core domain without actually belonging to it.
+
+*Core Domain* 
+The core domain is the part of the domain most closely associated with the strategy of the company.
 
 Das Risiko das bei der abgabe von Kotrolle also dem Outsourcen ist bei der Generic Domain gering. Bei einer Supporting Domain mittel und bei der Core Domain hoch.
 
@@ -84,13 +93,49 @@ Hier ein paar Beispiele (Kompletter Fragenkatalog zum download hier):
 *Qualität*
 - Ist es möglich, dass wir konkrete Abnahme-Tests definieren ?
 
-Zu jeder Frage haben wir uns eine optimale Antwort überlegt. Und dann diese  auf einer Skala von 1(unwichtig) - 10 (sehr wichtig) für uns gewichtet.
+Zu jeder Frage haben wir uns eine optimale Antwort überlegt. Und dann diese  auf einer Skala von 1(unwichtig) - 10 (sehr wichtig) für uns gewichtet. Auf diese Art und Weise konnten wir auch sehen, welche der Kategorien für uns am wichtigsten ist.
+Für die spätere protierung der gewichtung auf eine Punkteskala wird noch der Anteil der einzelnen Frage an den Gesamtpunkten der Gewichtung in Prozent umgerechnet.
+
+- Insgesamt vergebene Gewichtungspunkte/ Gewichtungspunkte Frage A
 
 Beispiele:
 
 
+*Verfügbarkeit*
+- Unter welchen Bedingungen sind persönliche Treffen möglich ?
+
+  Wir stehen jeder Zeit für einen persönlichen Kontakt zur Verfügung. wir sind uns darüber bewusst, dass direkte Kommunikation die effizienteste Art der Kommunikation ist.
+
+*Kompetenz*
+- Könnt ihr uns Referenzen für ähnliche projekte nennen?
+
+  Wir haben ein Änliches Projekt einmal bei XY umgesetzt, gerne stellen wir eine Kontakt her.
+
+*Prozess Kontrolle*
+- Was ist, wenn wir im Verlauf der Entwicklung feststellen, dass wir von dem ursprünglichen Auftrag komplett abweichen müssen ?
+
+  We embrace Change. Wir arbeiten Agil und sind uns bewusst, das es nicht darum geht einen plan oder eine anfängliche Idee zu verfolgen, sondern mit euch zusammen ein Ziel zu erreichen.
+
+*Risk Share*
+- Besteht die Bereitschaft, Risiken im Falle von Verzögerungen, Bugs nach Fertigstellung, Ausfällen etc. gemeinsam zu tragen ?
+  
+  Wir garantieren, dass wir funktionsfähige Software liefern. Bugs werden kostenfrei behoben, bei Schäden die durch von uns verschuldetet Ausfälle entstehen, leisten wir entsprechende Kompensation.
+  
+
+*Qualität*
+- Ist es möglich, dass wir konkrete Abnahme-Tests definieren ?
  
+  Ja. Nach weclhen Kriterien eine Softwareinkrement als fertig betractet werden kann, bestimmt der Auftrafgeber.
 
+ 
+Alle Fragen wurden an die möglichen Partner mit der Bitte diese zu beantworten verschickt. Als alle Partner geantwortet hatten, haben wir die Antworten nach dem Erfüllungsgrad der Idealantwortet auf einer skala von 1 (komt der Ideal Antwort nicht nahe)- 10 (entspricht der Idealantwort) bewertet.
 
+In Verbindung mit der vorherigen Gewichtung der Fragen in % konnten wir nun pro Partner ein Scorring von 1 -10  ermitteln.
 
+    
+|Categorie|Question|Ideal Answer|Importance|Answer Partner A|Fulfillment Parner A|Score Parner A|Answer Partner B|Fulfillment Partner B|Score Parner B|
+|---------|--------|------------|----------|----------------|--------------------|--------------|----------------|---------------------|--------------|
 
+Im letzten Schritt konnten wir nun das Verhältnis zwischen erreichten Punkten und dem Preis pro Partner betrachten. Der Partner der das beste Verhältnis zwischen Preis und Value Score hatte, bekam den Zuschlag.
+
+##Conclusion 
