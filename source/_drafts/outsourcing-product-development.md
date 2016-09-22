@@ -21,121 +21,63 @@ But today companies need to deal with lots of different domains beside their cor
 - HR
 - Public Relations
 - Community Management
-a.s.o.
 
-Domain Driven Design differs here between three different types of [domains](http://blog.zenmodeler.com/enterprise-design/2012/05/29/domain-driven-design-distillation-support-generic-and-core-domain.html)  
+Domain Driven Design differs here between three different types of [domains](http://blog.zenmodeler.com/enterprise-design/2012/05/29/domain-driven-design-distillation-support-generic-and-core-domain.html):  
 
-*Generic Domain*
+- *Generic Domain*
  A generic domain is one that is universally well-known, without any need for specialization in the core domain.
 
-*Supporting Doamin* 
+- *Supporting Doamin* 
 A support domain is a part of the domain that indirectly supports the core domain without actually belonging to it.
 
-*Core Domain* 
+- *Core Domain* 
 The core domain is the part of the domain most closely associated with the strategy of the company.
 
-Das Risiko das bei der abgabe von Kotrolle also dem Outsourcen ist bei der Generic Domain gering. Bei einer Supporting Domain mittel und bei der Core Domain hoch.
+It is not a big deal to outsource issues in a generic domain. It is a common practise to use third party software for topics like payrolle or accounting. [Datev](https://www.datev.com) is one widlespread example. While outsourcing in a core domain is not advisable, it can make sense in a supporting domain. Here a comapany should consider, if it is worth to take a risk to get one or more of the following advantages from a external partner:
 
-Es ist kein Problem ein Projekt in einer Generic Domain out zu sourcen und es ist eine gängige Praxis das zu tun. Beispiel : Datev für Gehaktsabrechungen. In der Core Domain ist ein Outsourcing aufgrund des hohehn risikos eher unüblich. Überlegt man ein Projekt in einer Supporting Domain abzugeben muss man sich folgende Punkte genau ansehen:
-
--  Ist es wert das Risiko des möglichen Kontrollverlustes einzugehen, weil ich durch einen externen Partner folgende Vorteile erhalte:
-- Verfügbarkeit
-- Kompetence
-- Veringertes unternehmerisches Risko, da ich mich nicht dauerthaft an zusätzliche Mitarbeiter binden muss.
- 
+- Availability
+- Additional competences
+- Reduced entrepreneurial risk, because permanently hiring of new employees is not required    
 
 ## Keep control
-Wie schon geschrieben entsteht das Risiko beim Outsourcing vorallem durch den Verlust an Kontrolle. Agiles Productmangement bietet ein paar mechanismen, die es ermöglichen diesen Kontrollverlsut zu veringern. Bei der Auswahl eines externen Partners ist es also wichtigt auf die Möglochkeit zu achten in wie weit solche mechanismen zu etablieren. Natürlich bedeutet es i.d.r. auch ein höheres Risiko für den Partner. Das Risiko ist so oder so da, man kann nur versuchen mit dem Partner zu verhandeln, das es gelichmäßig auf beide Partner verteilt ist.
-  
-Boris Gloger beschreit in seinem Buch [Der agile Festpreis](https://www.amazon.de/agile-Festpreis-Leitfaden-erfolgreiche-Projekt-Verträge/dp/3446432264) eine Mehode, wie man einen agilen Vertrag mit einem Zulieferer auch rechtlich bindend abschließen kann. Ob man sich nun für diese Methode entschiedet, oder einen weniger offiziellen Rahmen vereinbart. Die wesentlichen Punkte sind folgende:
+As alraedy mentioned the risk of outsourcing is about the loss of control. Agile product management offers several methods to reduce the loss of control. That means it is important that an external partner is willing to establish an agile process with you. Of course this usually means that you shift some risk to the partners side. In the end it is about divide the risk as fair as possible.  
 
-- Iteratives arbeiten mit regelmäßigen Reviews (z.B. Scrum)
-- Nach jeder iteration hat der Kunde die Möglichkeit das Projekt abzubrechen, oder die nächste Iteration zu beauftragen vs. Time and Material
-- Es sollte daruf hingearbeitet werden, das nach jeder Iteration wert geliefert wird (funktionierende Software)
-- Mit Jeder Iteration hat man die Möglichkeiten auf basis des gelernten die Anforderungen an das Projekt anzupassen   
-- Der Zuliefer commitet sich auf das erreichen eines Zieles und nicht auf das Umsetzen von Anforderungen
-- Eine Direkte Kommunikation mit den Entwicklern ist jeder Zeit möglich und gewünscht
-- Die Sprint länge ist verhandelbar. Schnelleres Feedback vs. die Möglichkeit funktionsfähige Software zu bauen
+Boris Gloger describes in his book ["Der agile Festpreis"](https://www.amazon.de/agile-Festpreis-Leitfaden-erfolgreiche-Projekt-Verträge/dp/3446432264) how to set up an agile contract with an external partner. In my opinion, it does not matter if you choose this or a less official way, the important points are as follow:
 
+- An iterative process includind regular reviews (e.g. Scrum).
+- After every iteration the customer has the opportunity to stop the project or to give the job for the next iteration instead of just paying for time and material. 
+- The whole process has to aim for delivering something valuable at the end of every iteration, which is usually working software.
+- There is the possibility to adjust the requirements at least after every iteration to benefit from the learnings during the work.
+- The partner commits to reach a goal with you and not to just implement requirements.
+- Direct communication is always possible.
+- The sprint length is negotiable. Faster feedback vs. the possibility to deliver working software. 
 
-## How to choose a external partner
-Es ist im prinzip Unmöglich einen Partner nach dem besten Preis auszuwählen. Preis ist ein Faktor in dem Entscheidungsprozess, aber eher der letzte Punkt den man sich ansieht. Man benötigt also eine Möglichkeit einen Partner nach anderen kriterien objektiv zu bewerten. In einem meiner letzten Projekte haben wir es anhand einer Nutzwertanalyse getan.
+## How to choose an external partner
+It is literally impossible to choose a good external partner just by the price. The price is a factor, but i think it should be the last attribute to look at. Hence there must be a diffrent way to objectively evaluate a partner. In one of my last projects we did it with a 	value benefit analysis.
 
-Mögliche Partner haben uns aufgrund einer ersten Anfrage ein Angebot gemacht. Diese waren aber wenig aussagekräftig, da sie presilich alle sehr nah beieinander lagen und wir uns nicht vorstellen konnten, dass die Partner aufgrund einer knappen Beschreibung unseres Vorhabend wirklich in der Lage sind den Aufwand für eine nötige Lösung verhersagen zu können.
+### Value benefit analysis
+In the first step we had to find criterias were we could benefit from a external partner or which are required to lower the risk for us beside the price. In our case it were the following: 
 
+- Availability
+- Competence
+- Process control
+- Risk share
+- Quality
 
+Then we assembled a questionnaire with questionsi we considered as important for every criteria. Download the full document [here](./outsourcing-product-development/questionary.xls).
 
-### Value analisis
-Im ersten Schritt muss man sich Überlegen, welche Kriterien außer dem Preis das Risiko minimieren können. In unserem Fall waren das folgende Punkte:
-  
-- Verfügbarkeit
-- Kompetenz
-- Prozess Kontrolle 
-- Risk Share
-- Qualität
+For every question we also formulated an ideal answer. We weighted every question on a scale from 1 (not important) to 10(very important) for us. To be able to transform the weighting to a score we calculated the ratio in percent of every question from the total amount of weigthing points.
 
-Wir haben dann einen Fragebogen zusammengestellt, der unterschiedliche Fragen zu jeder Kategorie enthielt. 
+{% asset_img weighting.png calculate weighting in percent %}
 
-Hier ein paar Beispiele (Kompletter Fragenkatalog zum download hier):
-
-*Verfügbarkeit*
-- Unter welchen Bedingungen sind persönliche Treffen möglich ?
-
-*Kompetenz*
-- Könnt ihr uns Referenzen für ähnliche projekte nennen?
-
-*Prozess Kontrolle*
-- Was ist, wenn wir im Verlauf der Entwicklung feststellen, dass wir von dem ursprünglichen Auftrag komplett abweichen müssen ?
-
-*Risk Share*
-- Besteht die Bereitschaft, Risiken im Falle von Verzögerungen, Bugs nach Fertigstellung, Ausfällen etc. gemeinsam zu tragen ?
-
-*Qualität*
-- Ist es möglich, dass wir konkrete Abnahme-Tests definieren ?
-
-Zu jeder Frage haben wir uns eine optimale Antwort überlegt. Und dann diese  auf einer Skala von 1(unwichtig) - 10 (sehr wichtig) für uns gewichtet. Auf diese Art und Weise konnten wir auch sehen, welche der Kategorien für uns am wichtigsten ist.
-Für die spätere protierung der gewichtung auf eine Punkteskala wird noch der Anteil der einzelnen Frage an den Gesamtpunkten der Gewichtung in Prozent umgerechnet.
-
-- Insgesamt vergebene Gewichtungspunkte/ Gewichtungspunkte Frage A
-
-Beispiele:
-
-
-*Verfügbarkeit*
-- Unter welchen Bedingungen sind persönliche Treffen möglich ?
-
-  Wir stehen jeder Zeit für einen persönlichen Kontakt zur Verfügung. wir sind uns darüber bewusst, dass direkte Kommunikation die effizienteste Art der Kommunikation ist.
-
-*Kompetenz*
-- Könnt ihr uns Referenzen für ähnliche projekte nennen?
-
-  Wir haben ein Änliches Projekt einmal bei XY umgesetzt, gerne stellen wir eine Kontakt her.
-
-*Prozess Kontrolle*
-- Was ist, wenn wir im Verlauf der Entwicklung feststellen, dass wir von dem ursprünglichen Auftrag komplett abweichen müssen ?
-
-  We embrace Change. Wir arbeiten Agil und sind uns bewusst, das es nicht darum geht einen plan oder eine anfängliche Idee zu verfolgen, sondern mit euch zusammen ein Ziel zu erreichen.
-
-*Risk Share*
-- Besteht die Bereitschaft, Risiken im Falle von Verzögerungen, Bugs nach Fertigstellung, Ausfällen etc. gemeinsam zu tragen ?
-  
-  Wir garantieren, dass wir funktionsfähige Software liefern. Bugs werden kostenfrei behoben, bei Schäden die durch von uns verschuldetet Ausfälle entstehen, leisten wir entsprechende Kompensation.
-  
-
-*Qualität*
-- Ist es möglich, dass wir konkrete Abnahme-Tests definieren ?
+A side effect of that was that when we accumulated the points per criteria, we were able to see which criteria was the most impotant for us. 
  
-  Ja. Nach weclhen Kriterien eine Softwareinkrement als fertig betractet werden kann, bestimmt der Auftrafgeber.
+The questionary was send to the partners, so that they could answer. After we got all the answers we ranked them on a scala from 1(not what we expect) to 10(very close to the ideal answer). In combination with the weighting in percent we were now able to generate a score per partner from 1 to 10.
 
- 
-Alle Fragen wurden an die möglichen Partner mit der Bitte diese zu beantworten verschickt. Als alle Partner geantwortet hatten, haben wir die Antworten nach dem Erfüllungsgrad der Idealantwortet auf einer skala von 1 (komt der Ideal Antwort nicht nahe)- 10 (entspricht der Idealantwort) bewertet.
+{% asset_img value.png calculate value score %}
 
-In Verbindung mit der vorherigen Gewichtung der Fragen in % konnten wir nun pro Partner ein Scorring von 1 -10  ermitteln.
+In the last step we were able to find the best partner by the ratio between the price and the achieved score.
 
-    
-|Categorie|Question|Ideal Answer|Importance|Answer Partner A|Fulfillment Parner A|Score Parner A|Answer Partner B|Fulfillment Partner B|Score Parner B|
-|---------|--------|------------|----------|----------------|--------------------|--------------|----------------|---------------------|--------------|
+{% asset_img ratio.png find partner by ratio %}
 
-Im letzten Schritt konnten wir nun das Verhältnis zwischen erreichten Punkten und dem Preis pro Partner betrachten. Der Partner der das beste Verhältnis zwischen Preis und Value Score hatte, bekam den Zuschlag.
-
-##Conclusion 
+## Conclusion 
