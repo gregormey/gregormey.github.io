@@ -5,15 +5,15 @@ tags:
 - product management
 - aglie
 ---
-I think outsourcing is a valid option to compensate missing inhouse skills or resources, but the desicion for outsourcing always accompanies a certain risk. In my career i have seen companies that deal with outsourcing quite different. 
+I think outsourcing is a valid option to compensate missing inhouse skills or resources, but the decision for outsourcing always accompanies a certain risk. In my career i have seen companies that deal with outsourcing quite different. 
 <!-- more -->
 
-Sometimes companies try to outsource as much product development as possible for cost reasons. Others suffered from the [not invented here syndrom](https://en.wikipedia.org/wiki/Not_invented_here). Some time i even worked for a company whose core business was to do development as a service for other companies. I like to share my experiences with that here in detail.    
+Sometimes companies try to outsource as much product development as possible for cost reasons. Others suffered from the [not invented here syndrome](https://en.wikipedia.org/wiki/Not_invented_here). Some time i even worked for a company whose core business was to do development as a service for other companies. I like to share my experiences with that here in detail.    
 
 ## Know your core domain
-The most important leasson i have learned so far is that outsourceing always means to give up control. So i think the question companies should be able to answer, when they consider to outsource product development is, for which area of their business they can affort to give up control.
+The most important lesson i have learned so far is that outsourcing always means to give up control. So i think the question companies should be able to answer, when they consider to outsource product development is, for which area of their business they can afford to give up control.
  
-I think companies should always keep control of their [drivers of the business model](http://www.startuplessonslearned.com/2008/09/three-drivers-of-growth-for-your.html), because here it is crutial to be stay flexible and to align as fast as possible when it is needed. In that area the entrepreneurial risk is always very high. 
+I think companies should always keep control of their [drivers of the business model](http://www.startuplessonslearned.com/2008/09/three-drivers-of-growth-for-your.html), because here it is crucial to be stay flexible and to align as fast as possible when it is needed. In that area the entrepreneurial risk is always very high. 
 
 But today companies need to deal with lots of different domains beside their core business. In a product development company that could be also:
 
@@ -33,30 +33,30 @@ A support domain is a part of the domain that indirectly supports the core domai
 - *Core Domain* 
 The core domain is the part of the domain most closely associated with the strategy of the company.
 
-It is not a big deal to outsource issues in a generic domain. It is a common practise to use third party software for topics like payrolle or accounting. [Datev](https://www.datev.com) is one widlespread example. While outsourcing in a core domain is not advisable, it can make sense in a supporting domain. Here a comapany should consider, if it is worth to take a risk to get one or more of the following advantages from a external partner:
+It is not a big deal to outsource issues in a generic domain. It is a common practise to use third party software for topics like payroll or accounting. [Datev](https://www.datev.com) is one widespread example. While outsourcing in a core domain is not advisable, it can make sense in a supporting domain. Here a company should consider, if it is worth to take a risk to get one or more of the following advantages from a external partner:
 
 - Availability
 - Additional competences
 - Reduced entrepreneurial risk, because permanently hiring of new employees is not required    
 
 ## Keep control
-As alraedy mentioned the risk of outsourcing is about the loss of control. Agile product management offers several methods to reduce the loss of control. That means it is important that an external partner is willing to establish an agile process with you. Of course this usually means that you shift some risk to the partners side. In the end it is about divide the risk as fair as possible.  
+As already mentioned the risk of outsourcing is about the loss of control. Agile product management offers several methods to reduce the loss of control. That means it is important that an external partner is willing to establish an agile process with you. Of course this usually means that you shift some risk to the partners side. In the end it is about divide the risk as fair as possible.  
 
 Boris Gloger describes in his book ["Der agile Festpreis"](https://www.amazon.de/agile-Festpreis-Leitfaden-erfolgreiche-Projekt-Verträge/dp/3446432264) how to set up an agile contract with an external partner. In my opinion, it does not matter if you choose this or a less official way, the important points are as follow:
 
-- An iterative process includind regular reviews (e.g. Scrum).
+- An iterative process including regular reviews (e.g. Scrum).
 - After every iteration the customer has the opportunity to stop the project or to give the job for the next iteration instead of just paying for time and material. 
 - The whole process has to aim for delivering something valuable at the end of every iteration, which is usually working software.
-- There is the possibility to adjust the requirements at least after every iteration to benefit from the learnings during the work.
+- There is the possibility to adjust the requirements at least after every iteration to benefit from the learned during the work.
 - The partner commits to reach a goal with you and not to just implement requirements.
 - Direct communication is always possible.
 - The sprint length is negotiable. Faster feedback vs. the possibility to deliver working software. 
 
 ## How to choose an external partner
-It is literally impossible to choose a good external partner just by the price. The price is a factor, but i think it should be the last attribute to look at. Hence there must be a diffrent way to objectively evaluate a partner. In one of my last projects we did it with a 	value benefit analysis.
+It is literally impossible to choose a good external partner just by the price. The price is a factor, but i think it should be the last attribute to look at. Hence there must be a different way to objectively evaluate a partner. In one of my last projects we did it with a 	value benefit analysis.
 
 ### Value benefit analysis
-In the first step we had to find criterias were we could benefit from a external partner or which are required to lower the risk for us beside the price. In our case it were the following: 
+In the first step we had to find criteria were we could benefit from a external partner or which are required to lower the risk for us beside the price. In our case it were the following: 
 
 - Availability
 - Competence
@@ -64,15 +64,15 @@ In the first step we had to find criterias were we could benefit from a external
 - Risk share
 - Quality
 
-Then we assembled a questionnaire with questionsi we considered as important for every criteria. Download the full document [here](./outsourcing-product-development/questionary.xls).
+Then we assembled a questionnaire with questions we considered as important for every criteria. Download the full document [here](./questionnaire.xlsx).
 
-For every question we also formulated an ideal answer. We weighted every question on a scale from 1 (not important) to 10(very important) for us. To be able to transform the weighting to a score we calculated the ratio in percent of every question from the total amount of weigthing points.
+For every question we also formulated an ideal answer. We weighted every question on a scale from 1 (not important) to 10(very important) for us. To be able to transform the weighting to a score we calculated the ratio in percent of every question from the total amount of weighting points.
 
 {% asset_img weighting.png calculate weighting in percent %}
 
-A side effect of that was that when we accumulated the points per criteria, we were able to see which criteria was the most impotant for us. 
+A side effect of that was that when we accumulated the points per criteria, we were able to see which criteria was the most important for us. 
  
-The questionary was send to the partners, so that they could answer. After we got all the answers we ranked them on a scala from 1(not what we expect) to 10(very close to the ideal answer). In combination with the weighting in percent we were now able to generate a score per partner from 1 to 10.
+The questionnaire was send to the partners, so that they could answer. After we got all the answers we ranked them on a scale from 1(not what we expect) to 10(very close to the ideal answer). In combination with the weighting in percent we were now able to generate a score per partner from 1 to 10.
 
 {% asset_img value.png calculate value score %}
 
