@@ -82,6 +82,4 @@ In the last step we were able to find the best partner by the ratio between the 
 ## Summary
 Outsourcing of product development can be an opportunity, if you know in which area of your business you can afford a risk that comes from the loss of control. It is advisable to use agile methods to manage the development process, because it gives you tools and techniques to keep control over the process even with external partners.
 
-It is not enough to choose the right external partner just by the best price. It is much more important to find the right qualitative measurements to objectively evaluate the right partner for your intent. A value benefit analysis can be a tool for that, as it is described above.
- 
- 
+It is not enough to choose the right external partner just by the best price. It is much more important to find the right qualitative measurements to objectively evaluate the best partner for your intent. As it is described above a value benefit analysis can be a tool for that. 
