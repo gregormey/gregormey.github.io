@@ -1,10 +1,12 @@
 ---
 title: Outsourcing of product development
 tags:
-- DDD
-- product management
-- aglie
+  - DDD
+  - product management
+  - aglie
+date: 2016-09-26 10:54:54
 ---
+
 I think outsourcing is a valid option to compensate missing inhouse abilities, but the decision for outsourcing always comes with a certain risk. In my career i have seen companies that deal with outsourcing quite differently. 
 <!-- more -->
 
