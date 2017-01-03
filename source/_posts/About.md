@@ -1,5 +1,6 @@
 ---
 title: What's this blog about
+date: 2016-09-09 11:14:25
 ---
 Welcome. This blog is about my personal experiences from my work as a Product Owner. If you want to know more about me, please visit the [About](/about) page. This is what you can expect: 
 <!-- more -->
