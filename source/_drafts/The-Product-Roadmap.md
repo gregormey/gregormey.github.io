@@ -7,55 +7,65 @@ tags:
 - strategy
 ---
 
-Als Product Owner ist für mich der Anfang des Jahres der Zeitpunkt an dem ich mich intensiv mit der Roadmap für das kommende Jahr beschäftige.
-Die Roadmap ist ein strategisches Tools um die Richtung der productentwicklung zu steueren. Im gegensatz dazu sind User Stories und Sprint Ziele taktische Tools die sich mit dem nächst wichtigen Schrittbeschäftigen um einem Strategischen Ziel näher zu kommen. In diesem Artikel möchte ich beschreiben wie ich den Prozess bis zur Fertigen Roadmap gestalte.
-
+The beginning of the new year is for me as a Product Owner the moment when i work intensely on my roadmap for the upcoming year. The Product Roadmap is a strategic tool to steer the direction of the product development. Sprint Goals and User Stories are tactical tools which deal with the next reasonable thing to do to reach a strategic goal. In this article i like to explain the format i usually use to create my roadmaps. 
 <!-- more -->
 
 {% asset_img Sun-Tzu-Final.gif Sun Tzu -  The Art of War %}
 
-
 ## The Roadmap Level
 
-Die Roadmap befindet sich zwischen der Ebene Product Vision und den Sprint Zielen und definiert die nächsten Ziele die erreicht werden sollten um der Produkt Vision näher zu kommen und setzen somit den Focus für die nächsten 2- 4 Sprints. Sprint Ziele, User Stories und Entwickler Tasks orientieren sich wiederum an den Zielen auf der Roadmap un definieren was als nächstes getan werden muss um das Ziel zu erriechen.
+I see the roadmap on a level between the Product Vision and the Sprint Goals. The roadmap explains the next important goals that have to be reached to come closer to the vision. The singel goal sets the focus for the next 2 to 3 sprints.
 
-Ich definiere in meiner Roadmap idr. konkrete Ziele für das nächste Quartal, die ich auch gegeneinamder priorisere und somit einen Ausblick gebe mit welchen Themen sich das Team beschäftigen wird. Über das Quartal hinaus definiere ich idr. einige weitere Ideen aus denen irgendwann konkrete Ziele werden könnten um auch über einen längeren Zeitraum klarzustellen, was die relevanten Themen für das Produkt sein werden.
+Usually i define concrete roadmap goals for the next quarter (3 month) and i priorize them against each other to make clear what the team will be working on during that period. To be able to give a prospect of what could be important for the product after we have reached the next defined goals i also formulate some further ideas beyond this 3 month period. 
 
-Es lohnt sich nicht Ziele mit detaileren User stories zu definieren, solange sie nicht relevant und direkt bearbeitet werden können. Deshalb versehe ich Roadmap Ziele die nicht im aktuellen Focus liegen nur mit groben sehr großen User Stories. Konkrete Tasks werden idr. nur für stories defineirt die sich im aktuellen Sprint befinden. So behält man sich die Möglichkeit offen auf veränderungen und gelerntes entsprechend reagieren zu können.
+Based on my experience i think it is useless to define detailed User Stories for the Goals as long as they are not work in progress. This is the reason why i create only very large stories for the goals were the team does not currently work on. This leaves the opportunity open to react on changes as they occur and to let learnigs influence the further refinement.
 
+### Backlog Model
 {% asset_img Backlog.png When a goal gets more relevant the stories are getting smaller %}
 
 ## Goal Definition     
-Die Aufgabe der Roadmap ist es die Richtung der Entwicklung zu bestimmen und es dem Team ermöglichen auf die relvanten Dinge für den Erfolg des Produktes zu focusieren. Aus deisem Grund definieren die Ziele auf der Roadmap einen Outcome. sie sollten klar machen was erreicht werden muss (Outcome). Dafür hat sich in der Vergangenheit für mich bewert das ich pro ziel die folgenden drei Punkte klar definiere:
-
+The goals on the roadmap define an expected outcome. Therefore they have to make clear what needs to be achievedi, so that the team is able to focus on them. In the past it worked for me to communicate the following three points per goal:
+ 
 ### Goal
-Definiert möglichst klar was erreicht werden soll. Dieser Punkt gibt dem Thema einen Namen und hilft dabei darüber zu sprechen.
+Defines as clear as possible what needs to be reached. This helps to give the topic a name when you are talking about it.
 
 ### Value Proposition
-Beschreibt den Wert den das erreihen eines Zieles für das Produkt / Unternehmen darstellt. Dieser Punkt macht klar warum wir glauben das, dass Ziel erreicht werden sollte.
+Describes the value for the product or the company when the goal is reached. This point should make clear why we think something should be done.  
 
 ### Metrics
-Listet 1-2 für das Ziel relevante KPI's auf, die dazu dienen um zu messen ob das Ziel erreicht wurde.  
+Lists 1 to 2 relevant KPIs which can be used to measure the success. 
 
 ### ToDos 
-Eine kurze Zusammenfassung der Dinge die erledigt werden müssen um das Ziel zu erreichen. Die liste hat keinen Anspuch auf Vollständigkeit und dient nur dazu einen Kontext zu dem Thema zu geben. 
+A short summary about the issues that have to be solved. This helps to better define the context of the goal.
 
-## Timeline
-Ich habe schon in verschiedenen anderen Artikeln geschrieben das auf basis meiner persönlichen Erfahrung glaube, dass Aufwandsschätzungen egal ob in From von stunden oder von Story Points, den Aufwand nicht wert ist. Trotzdem sehe ich folgende Vorteile die sich ergeben, wenn man auf Roadmap Ebene mit einer Timeline arbeitet:
+## Deadlines
+I still belive that effort estimations are not worth the effort, but i think that it has severall advantages to work with timings in the roadmap.
 
-* Es ist möglich die Cost of Delay zu bestimmen und kann entscheiden ob sich eine Investition in das Thema lohnt.
-* Wenn man eine fixe Deadline hat, bekommt man die Möglichkeit den Scope anzupassen. Man stellt sich somit eher die Frage, wie können wir ein Problem cleverer/einfacher lösen um unser Ziel rechtzeitig zu erreichen.
-* Als Product Owner bekommt man die Möglichkeit zu kommunizieren, wann geliefert werden kann.
+* It becomes possible to define the cost of delay and you are then able to decide if you think that the topic is worth the investment.
+* When you have a fixed deadline it becones possible to reduce the scope. This increases the chances that the team will come up with ideas to solve problems better, faster and/or smater. 
+* It puts you in a positions were you are able to communicate when the team will deliver. 
 
-Ich definiere Deadlines immer mit dem gesamten Entwicklerteam zusammen. Die Frage die ich stelle ist: Wie viel Zeit wollen wir uns geben um dieses Ziel zu erreichen? Wichtig ist mir, dass ich am Ende ein Commitment des Teams auf das Timing bekomme, da ich erwarte dass wir von diesem Zeitpunkt an dann alle geimeinsam daran arbeiten das Tieming zu halten. 
+I always define deadlines together with the development team. The question we try to answer together is:
+
+"How much time do we want to give us to reach that goal ?"
+
+It is important for me to get a commitment from the team for the timeline. I expect that the whole team tries to stick to the self-determinated deadlines.   
 
 ## The Plan is nothing, planning is everything 
-Ich denke es ist wichtig zu verstehen, dass eine Roadmap nichts ist was einmal definiert wird und dannach nicht mehr angefasst werden darf und jede Abweichung von dem Plan ein Versagen ist. Die Roadmap muss immer dann angepasst werden, wenn man durch kontinuierliches lernen in der Lage ist eine bessere oder genauere Aussage über die Richtung der Produktentwicklung machen kann. Man sollte niemals versuchen infoarmationen zu verstecken. Merken wir zum Beispiel das wir eine Deadline nicht mehr halten können, muss die Roadmap entsprechend angepasst werden und dieses muss kommuniziert werden. Gleiches glit dafür, wenn sich die Priorität ändert, oder wir ein Ziel schneller erreichen können als gedacht.
+I think it is important to understand that a roadmap is never written in stone. It is a working artifact that needs to be adopted everytime when it is required. This could be the case, when we learned something during the development process that allows us to define the direction of the product development in a better way. I think it is important for the expectation management to never hide informations. If the priority changes or we realize that we are not able to meet a deadline or we find a way to solve issues faster, it is requiered to communicate it.
 
-Es hat sich für mich in der Vergangenheit bewehrt spätestens wenn man ein Ziel erreicht hat oder die Dedline droht abzulaufen sich mit dem Team folgende Fragen zu stellen:
+It has worked for me in the past to talk with the development team latest when we are close to reach a goal or close to a expiring deadline about the following questions: 
 
-* Ist das nächste geplante Ziel immernoch das nächst wichtige?
-* Stehen wir immernoch hinter dem Timing?
-* Wie können wir mit dem was wir nun über unser Produkt wissen unsere strategischen Ziele verbessern?
+* Is the next planned goal still the most valuable one ?
+* Are we still committed to the deadline ?
+* How can we improve the roadmap with what we have lately learned about our product ?
 
-Am Ende geht nicht um den Plan sondern darum zu planen und das bedeutet miteinadner zu kommunizieren.  
+In total i think it is important to do the planning, which basically means talking to each other about the best product strategy. 
+
+## Roadmap Tempalte
+{% asset_img RoadmapTemplate.png Roadmap Template including explanations %}
+[Download](RoadmapTemplate.gliffy) template as [Gliffy](http://www.gliffy.com) file.
+
+## Further reading
+* [The Go Product Roadmap](http://www.romanpichler.com/blog/goal-oriented-agile-product-roadmap/) 
+* [Benefits of transparent costs](http://blog.gregormeyenberg.de/2016/09/14/benefits-of-transparent-costs/)
