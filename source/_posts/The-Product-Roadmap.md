@@ -1,11 +1,13 @@
 ---
 title: The Product Roadmap
 tags:
-- planning
-- product management
-- agile
-- strategy
+  - planning
+  - product management
+  - agile
+  - strategy
+date: 2017-01-04 16:37:55
 ---
+
 
 The beginning of the new year is for me as a Product Owner the moment when i work intensely on my roadmap for the upcoming year. The Product Roadmap is a strategic tool to steer the direction of the product development. Sprint Goals and User Stories are tactical tools which deal with the next reasonable thing to do to reach a strategic goal. In this article i like to explain the format i usually use to create my roadmap. 
 <!-- more -->
