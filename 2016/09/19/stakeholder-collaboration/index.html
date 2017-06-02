@@ -107,7 +107,29 @@
 
 
 
+        <div id="job_widget"></div>
     </div>
+    
+
+    <script>
+      (function (i, s, g, r, a, m) {
+           i['XingJobsWidgetObject'] = r;
+           i[r] = i[r] || function () {
+               (i[r].q = i[r].q || []).push(arguments)
+           };
+           a = s.createElement('script'),
+           m = s.getElementsByTagName('script')[0];
+           a.async = 1;
+           a.src = g;
+           m.parentNode.insertBefore(a, m)
+       })(window, document, 'https://www.xing.com/jobs/widget.js', 'xjw');
+
+      xjw('container', 'job_widget');
+      xjw('params', 'keywords', 'Agile Product Owner');
+    </script>
+
+
+
 </body>
 
 </html>
