@@ -3,7 +3,7 @@ title: Behind the obvious
 tags:
 - Product management
 - Valuechain
-- Managementi
+- Management 
 - Lean Analytics
 ---
 
