@@ -19,10 +19,10 @@ There are some commonly used value stream mapping symbols which apply for manufa
 
 Most of them do not apply for digital product development. In my experience it is important to symbolize the following items within larger organisations.
 
-- Departments
 - Teams
-- Products/Tools
 - Stakeholder
+- Departments
+- Products/Tools
 - Data Communication Path
 - Lead Times
 
