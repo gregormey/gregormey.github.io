@@ -34,8 +34,8 @@ Backend Produkte laufen immer Gefahr nicht verstanden zu werden. Was genau macht
 
 
 ## A gracefull hand over 
-Do not fall in love with your product. Das gilt auch für Backend Produkte. 
-
+Do not fall in love with your product. Das gilt auch für Backend Produkte. Ich denke es ist notwendig sein Konzeot permarnent zu hinterfragen und zu verbessern. Möglicherweise kommt man irgendwann an einen Punkt an dem die Weiterentwicklung 
+des Produktes nicht mehr die beste Möglickeit für das Unternhemen in dem kontext dargstellt. ICh habe sowetwas erlebt, wenn die Anforderungen an das eigenen Produkt zu komplex werden. Es ist möglich das eine Externe Lösung dann mehr Sinn machen könnte, weil sons zuviel Aufwand aufgewendet werden muss für einen Bereich der nicht zur Core Domain des Unternhemens gehört. Auch kann es möglich sein, dass das Ursprüngliche Problem weclhes man für das Unternhemen lösen konnte nicht mehr die Bedeutung hat, die es zu beginn der Entwicklung gehabt hat. An dieser Setlle ist es die Aufgabe des PO das frühzeitig zu erkennen und alternativen für das Unternemen aufzuzeigen, auch wenn es bedeutet den eigenen Posten aufzugebn.  
 
 Mehr zu den unterschiedlichen Phasen die ein Produkt durchlüsft beschreibt [Alister Croll](http://link) in seinem Buch [Lean Anlytics](http://link) 
  
